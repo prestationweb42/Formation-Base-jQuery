@@ -1,0 +1,74 @@
+/* CSS */
+/* Setting List Container*/
+.list__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.list__item {
+    margin-bottom: 15px;
+}
+
+.list__link {
+    font-size: 1.1em;
+    text-decoration: underline;
+    color: var(--main-blue);
+    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;
+}
+.list__link:hover {
+    text-decoration: none;
+}
+
+/* - */
+.container h2 {
+    font-size: 3em;
+}
+.container h3,
+h4 {
+    font-size: 2em;
+}
+.container .btn {
+    font-size: 1em;
+    width: 250px;
+    margin: 10px auto 10px;
+    padding: 5px 0;
+}
+.content {
+    width: 90%;
+    min-height: 150px;
+    margin: 10px auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 1px solid #111;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.content p {
+    margin: 10px auto 10px;
+}
+.content input {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.bgcolor {
+    background-color: aqua;
+}
+
+.content10 .content p {
+    padding: 10px 20px;
+    background-color: red;
+    cursor: pointer;
+}
+.droppable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="../jquery/jquery-371.js" defer></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"
+            defer
+        ></script>
+        <script src="contenuhtml.js" defer></script>
+        <link rel="stylesheet" href="../style.css" />
+        <link rel="stylesheet" href="contenuhtml.css" />
+        <link rel="stylesheet" href="../responsive.css" />
+        <title>Les Sélecteurs</title>
+    </head>
+    <body>
+        <main class="main__container">
+            <section class="section__container">
+                <header class="header__container">
+                    <h1>Formation jQuery</h1>
+                    <h2>Manipulation du Contenu HTML</h2>
+                </header>
+                <ul class="list__container">
+                    <li class="list__item">
+                        <a href="../index.html" class="list__link">Retour</a>
+                    </li>
+                    <li class="list__item">
+                        <a href="#modifTitle" class="list__link ancre"
+                            >Modifier le titre</a
+                        >
+                    </li>
+                    <li class="list__item">
+                        <a href="#replaceContent" class="list__link ancre"
+                            >Remplacer un élément</a
+                        >
+                    </li>
+                    <li class="list__item">
+                        <a href="#addClass" class="list__link ancre"
+                            >Ajouter une classe</a
+                        >
+                    </li>
+                    <li class="list__item">
+                        <a href="#addStyle" class="list__link ancre"
+                            >Ajouter du style</a
+                        >
+                    </li>
+                    <li class="list__item">
+                        <a href="#hideElement" class="list__link ancre"
+                            >Afficher/Masquer des éléments</a
+                        >
+                    </li>
+                    <li class="list__item">
+                        <a href="#dragDrop" class="list__link ancre"
+                            >Drag & Drop</a
+                        >
+                    </li>
+                    <li class="list__item">
+                        <a href="contenuhtml.js" class="list__link"
+                            >Voir le code jQuery</a
+                        >
+                    </li>
+                </ul>
+                <div class="container">
+                    <div class="content content1">
+                        <button class="btn btn6">Inserrer un élément</button>
+                    </div>
+                    <div class="content content2">
+                        <h2>Mon titre h2</h2>
+                        <input type="text" name="titleH2" id="titleH2" />
+                        <button class="btn btn1">Remplacez titre h2</button>
+                    </div>
+                    <div class="content content3">
+                        <h3>Mon titre h3</h3>
+                        <input type="text" name="titleH3" id="titleH3" />
+                        <button class="btn btn2">Remplacez titre h3</button>
+                    </div>
+                    <div id="modifTitle" class="content content4">
+                        <p>Modifier le titre</p>
+                        <h4>Mon titre h4</h4>
+                        <input type="text" name="titleH4" id="titleH4" />
+                        <p>Ajouter au titre avec append()</p>
+                        <button class="btn btn3">Ajouter au titre h4</button>
+                        <p>Supprimer un élément avec remove()</p>
+                        <button class="btn btn4">
+                            Supprimez les titres h4
+                        </button>
+                        <p>Ajouter un élément avant avec before()</p>
+                        <button class="btn btn5">
+                            Ajouter un élément avant
+                        </button>
+                        <p>Ajouter un élément après avec after()</p>
+                        <button class="btn btn5_1">
+                            Ajouter un élément après
+                        </button>
+                    </div>
+                    <div id="replaceContent" class="content content4">
+                        <p>Remplacer un élément avec replaceWith()</p>
+                        <button class="btn btn7">Remplacer un élément</button>
+                    </div>
+                    <div id="addClass" class="content content5">
+                        <p>Ajouter du style avec addClass()</p>
+                        <button class="btn btn8">Ajouter une classe</button>
+                    </div>
+                    <div id="addStyle" class="content content6">
+                        <p>Ajouter directement du style</p>
+                        <button class="btn btn9">Ajouter du style</button>
+                    </div>
+                    <div id="hideElement" class="content content7">
+                        <p>Afficher/Masquer un élément</p>
+                        <button class="btn btn10">
+                            Cacher un élément avec hide()
+                        </button>
+                        <button class="btn btn10_1">
+                            Afficher un élément avec show()
+                        </button>
+                        <p class="hideMe">CACHEZ-MOI</p>
+                    </div>
+                    <div class="content content8">
+                        <button class="btn btn11">
+                            Afficher/Masquer avec toggle()
+                        </button>
+                        <p class="toggleMe">CACHEZ-MOI</p>
+                    </div>
+                    <div class="content content9">
+                        <p>Copier du contenu dans le presse papier</p>
+                        <textarea
+                            name="copyText"
+                            id="copyText"
+                            cols="20"
+                            rows="5"
+                        ></textarea>
+                        <button class="btn btn12">COPIER</button>
+                        <div></div>
+                    </div>
+                    <div class="content content10">
+                        <p>Drag & drop un élément</p>
+                        <div class="content">
+                            <p id="dragDrop">Bougez-moi</p>
+                        </div>
+                        <div class="content">
+                            <article class="result"></article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

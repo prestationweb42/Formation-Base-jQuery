@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="../jquery/jquery-371.js" defer></script>
+        <script src="parcourdom.js" defer></script>
+        <link rel="stylesheet" href="parcourdom.css" />
+        <link rel="stylesheet" href="../style.css" />
+        <link rel="stylesheet" href="../responsive.css" />
+        <title>Les Sélecteurs</title>
+    </head>
+    <body>
+        <main class="main__container">
+            <section class="section__container">
+                <header class="header__container">
+                    <h1>Formation jQuery</h1>
+                    <h2>Parcourir le DOM</h2>
+                </header>
+                <ul class="list__container">
+                    <li class="list__item">
+                        <a href="../index.html" class="list__link">Retour</a>
+                    </li>
+                    <li class="list__item">
+                        <a href="parcourdom.js" class="list__link"
+                            >Voir le code jQuery</a
+                        >
+                    </li>
+                </ul>
+                <div class="container-1 parent-1 enfant-1">
+                    Container 1
+                    <div class="container-2 parent-2 enfant-2">
+                        Container 2
+                        <div class="container-3 parent-3 enfant-3">
+                            Container 3
+                        </div>
+                    </div>
+                </div>
+                <div class="content_find">
+                    <p>Parent du Container 1 et 2 (voir console)</p>
+                    <div class="innerParent"></div>
+                    <p>Enfant du Container 2 (voir console)</p>
+                    <div class="innerChild"></div>
+                    <p>Afficher un élément avec find() du <br> parent 1 à l'enfant 3 (voir console)</p>
+                    <div class="innerFind"></div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

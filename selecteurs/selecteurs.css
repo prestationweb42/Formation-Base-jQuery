@@ -1,0 +1,20 @@
+/* Setting CSS Selecteur */
+.content {
+    width: 300px;
+    height: 120px;
+    border: 1px solid red;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#id_selecteurs button,
+.classe_selecteurs button,
+.this_selecteurs button {
+    width: 200px;
+    padding: 5px 0;
+}
+.content .content_form .innertext {
+    height: auto;
+}

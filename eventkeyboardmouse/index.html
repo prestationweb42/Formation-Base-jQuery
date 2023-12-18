@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="../jquery/jquery-371.js" defer></script>
+        <script src="app.js" defer></script>
+        <!-- <script src="eventkey.js" defer></script> -->
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="responsive.css" />
+        <title>Formation jQuery</title>
+    </head>
+    <body>
+        <main class="main__container">
+            <section class="section__container">
+                <header class="header__container">
+                    <h1>Formation jQuery</h1>
+                    <h2>Event Mouse & Event Keyboard</h2>
+                </header>
+                <ul class="list__container">
+                    <li class="list__item">
+                        <a href="../index.html" class="list__link">Retour</a>
+                    </li>
+                    <li class="list__item">
+                        <a href="eventkey.js" class="list__link"
+                            >Voir eventkey.js</a
+                        >
+                    </li>
+                    <li class="list__item">
+                        <a href="app.js" class="list__link">Voir app.js</a>
+                    </li>
+                </ul>
+                <div id="identifiant" class="content">
+                    <p>Evènement click</p>
+                    <p>Cliquez sur le bouton pour changer le contenu</p>
+                    <button class="btn btn1">EVENT MOUSE</button>
+                </div>
+                <div class="content">
+                    <p>Evènement mouseleave</p>
+                    <p>
+                        Passez la souris sur le bouton pour changer le contenu
+                    </p>
+                    <button class="btn btn2">EVENT MOUSE</button>
+                </div>
+                <div class="content content_keyboard">
+                    <p>
+                        Tapez sur une touche du clavier pour connaitre ses
+                        paramètres
+                    </p>
+                    <p>Le nom est e.code</p>
+                    <p>La touche est e.key</p>
+                    <p>Le numéro de la touche est e.keyCode</p>
+
+                    <input type="text" />
+                    <div class="innertext"></div>
+                    <div class="innercode"></div>
+                </div>
+                <div class="content mouseXY">
+                    <p>Coordonnées du click de la souris</p>
+                    <p>Avec e.pageX et e.pageY</p>
+                    <div></div>
+                </div>
+                <div class="content mousePreventDefault">
+                    <p>Prévenir un évènement par défaut</p>
+                    <p>Avec e.preventDefault -> annuler click droit sur la div</p>
+                </div>
+                <div class="content content_links">
+                    <h2>Liens sur les Keyboards</h2>
+                    <a
+                        href="https://www.w3schools.com/jsref/event_key_key.asp"
+                        target="_blank"
+                        >w3schools event_key</a
+                    >
+                    <a
+                        href="https://www.dcode.fr/code-touches-javascript"
+                        target="_blank"
+                        >Code touches JavaScript</a
+                    >
+                    <a
+                        href="https://www.w3.org/TR/2023/CR-uievents-code-20230530/#keyboard-common-layouts"
+                        target="_blank"
+                        >Standard Keyboard</a
+                    >
+                    <a
+                        href="https://www.w3schools.com/jsref/obj_keyboardevent.asp"
+                        target="_blank"
+                        >w3schools keyboardevent</a
+                    >
+                    <a
+                        href="https://montrezvous.net/developpement-web/interactions-du-clavier-en-javascript.html"
+                        target="_blank"
+                        >JS Interactions Clavier</a
+                    >
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

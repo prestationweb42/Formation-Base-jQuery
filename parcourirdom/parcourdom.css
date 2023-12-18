@@ -1,0 +1,44 @@
+/* Setting CSS Parcourir le DOM */
+
+.section__container {
+    min-height: 100vh;
+}
+
+.container-1 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.container-2 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(55, 255, 0);
+    cursor: pointer;
+}
+.container-3 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(0, 89, 255);
+    cursor: pointer;
+}
+
+/* Setting Results */
+.content_find {
+    width: 300px;
+    min-height: 200px;
+    margin: 10px auto;
+    border: 1px solid rgb(38, 0, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.innerParent,
+.innerChild,
+.innerFind {
+    width: 90%;
+    min-height: 25px;
+    border: 1px solid red;
+}
