@@ -23,9 +23,6 @@
             </header>
             <ul class="list__container">
                 <li class="list__item">
-                    <a href="../index.html" class="list__link">Retour</a>
-                </li>
-                <li class="list__item">
                     <a href="get_user.php" class="list__link">Voir BDD</a>
                 </li>
                 <li class="list__item">
@@ -35,6 +32,7 @@
             <div class="container">
                 <div class="content">
                     <h2>Requête AJAX</h2>
+                    <p>Entrez votre email et la marque de votre PC</p>
                     <label for="email">Email</label>
                     <input type="text" id="email">
                     <label for="email">Modele PC</label>
